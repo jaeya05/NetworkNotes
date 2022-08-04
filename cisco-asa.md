@@ -6,7 +6,7 @@ description: This page contains Cisco ASA Firewall troubleshoot
 
 ### Verify the Access status of Packet flow
 
-The below mentioned command is used to verify the access status of packet flow for the given source to destination  &#x20;
+The packet-tracer command provides detailed information about the packets and how they are processed by the security appliance. &#x20;
 
 #### syntax
 
