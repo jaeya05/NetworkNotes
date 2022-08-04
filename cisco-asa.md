@@ -23,7 +23,7 @@ packet-tracer input _<mark style="color:green;">`<ZONE_NAME>`</mark> <mark style
 
 #### Example Command
 
-```
+```powershell
 ASA# packet-tracer input INSIDE tcp 10.18.19.20 1024 172.27.19.24 23 detailed
 ```
 
