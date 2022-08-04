@@ -6,9 +6,20 @@ description: This page contains Cisco ASA Firewall troubleshoot
 
 ### Verify the Access status of Packet flow
 
+The below mentioned command is used to verify the access status of packet flow for the given source to destination  &#x20;
+
 #### syntax
 
 packet-tracer input _<mark style="color:green;">`<ZONE_NAME>`</mark> <mark style="color:red;">\<protocol></mark> <mark style="color:orange;">\<source-ip> \<source-port></mark> <mark style="color:purple;">\<dest-ip> \<dst-port></mark>_ detailed&#x20;
+
+* _<mark style="color:orange;">\[src\_int]</mark>_: Specify the source (ingress) interface from which the simulated packet will start.
+* _<mark style="color:red;">protocol</mark>_<mark style="color:red;">:</mark> This can be “**tcp**” or “**udp**” or “**icmp**“.
+* _<mark style="color:orange;">src\_addr</mark>_<mark style="color:orange;">:</mark> Here enter a source IP address of the packet.
+* _<mark style="color:orange;">src\_port</mark>_<mark style="color:orange;">:</mark> Source port of the packet (can be any arbitrary number, preferably above 1024).
+* _<mark style="color:purple;">dest\_addr</mark>_<mark style="color:purple;">:</mark> Destination IP address of the packet.
+* _<mark style="color:purple;">dest\_port</mark>_<mark style="color:purple;">:</mark> Destination port of the packet.
+* _\[detailed]_: Provides detailed tracing output information.
+* _\[xml]_: Displays the trace results in XML format.
 
 #### Example Command
 
