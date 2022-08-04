@@ -1,5 +1,6 @@
 ---
 description: This page contains Cisco ASA Firewall troubleshoot
+layout: editorial
 ---
 
 # Cisco ASA
