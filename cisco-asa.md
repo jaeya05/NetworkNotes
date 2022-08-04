@@ -29,7 +29,9 @@ ASA# packet-tracer input INSIDE tcp 10.18.19.20 1024 172.27.19.24 23 detailed
 
 ### Remote VPN Troubleshoot
 
-Verify the user by using assigned IP address from the VPN pool
+Verify the user who connected to the firewall using <mark style="color:red;">**anyconnect**</mark> VPN&#x20;
+
+#### syntax
 
 ```shell
 ASAv# show vpn-sessiondb anyconnect filter a-ipaddress <ip-address>
