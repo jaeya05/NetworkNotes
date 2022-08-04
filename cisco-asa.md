@@ -8,9 +8,7 @@ description: This page contains Cisco ASA Firewall troubleshoot
 
 #### syntax
 
-```
-packet-tracer input <ZONE_NAME> <protocol> <source-ip> <source-port> <destination-ip> <destination-port> detailed
-```
+packet-tracer input _<mark style="color:green;">`<ZONE_NAME>`</mark> <mark style="color:red;">\<protocol></mark> <mark style="color:orange;">\<source-ip> \<source-port></mark> <mark style="color:purple;">\<dest-ip> \<dst-port></mark>_ detailed&#x20;
 
 #### Example Command
 
