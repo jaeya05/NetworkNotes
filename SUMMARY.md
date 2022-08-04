@@ -5,5 +5,5 @@
 * [Switching](3.switching.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [General Troubleshoot](troubleshooting/general-troubleshoot.md)
-  * [Cisco ASA](troubleshooting/cisco-asa.md)
+  * [Cisco ASA](cisco-asa.md)
 * [IP-Services](4.ip-services.md)

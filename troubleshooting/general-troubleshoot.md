@@ -8,6 +8,6 @@ description: This page contains Cisco network product troubleshooting commands a
 
 To Verify the Power Supply unit status
 
-```
+```bash
 CISCO_SW_01#show env power all
 ```
