@@ -29,6 +29,12 @@ ASA# packet-tracer input INSIDE tcp 10.18.19.20 1024 172.27.19.24 23 detailed
 
 ### Remote VPN Troubleshoot
 
+#### verify the VPN overall status (VPN Summary)
+
+```
+ASA# show vpn-sessiondb summary
+```
+
 Verify the user who connected to the firewall using <mark style="color:red;">**anyconnect**</mark> VPN&#x20;
 
 #### syntax
