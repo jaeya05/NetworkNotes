@@ -31,7 +31,7 @@ ASA# packet-tracer input INSIDE tcp 10.18.19.20 1024 172.27.19.24 23 detailed
 
 #### verify the VPN overall status (VPN Summary)
 
-```
+```powershell
 ASA# show vpn-sessiondb summary
 ```
 
@@ -39,6 +39,6 @@ Verify the user who connected to the firewall using <mark style="color:red;">**a
 
 #### syntax
 
-```shell
+```powershell
 ASAv# show vpn-sessiondb anyconnect filter a-ipaddress <ip-address>
 ```
