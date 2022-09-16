@@ -2,7 +2,7 @@
 
 ### Configuration mode
 
-To execute new configurations or edit the existing config's we need to first enter into configure mode
+To execute new configurations or edit the existing config's we've to first enter into configure mode
 
 ```basic
 admin@PeerFound_Fw_01> configure
