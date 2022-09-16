@@ -12,7 +12,9 @@ admin@PeerFound_Fw_01> set cli config-output-format
   xml       xml
 ```
 
-#### SET Format
+#### Set Format
+
+Displays the output in configured format
 
 ```
 admin@PeerFound_Fw_01> set cli config-output-format set
@@ -37,6 +39,71 @@ set deviceconfig system netmask 255.255.255.0
 set deviceconfig system default-gateway 192.168.137.2
 set deviceconfig system dns-setting servers primary 1.1.1.1
 set deviceconfig system dns-setting servers secondary 8.8.8.8
+[edit]
+admin@PeerFound_Fw_01#
+
+```
+
+#### Json Format
+
+Displays the output in json, which helps in dealing with API realted configs
+
+```
+admin@PeerFound_Fw_01# show deviceconfig system
+{
+"type":
+{
+"static":
+[]
+}
+,
+"update-server":
+"updates.paloaltonetworks.com",
+"update-schedule":
+{
+"threats":
+{
+"recurring":
+{
+"weekly":
+{
+"day-of-week":
+"wednesday",
+"at":
+"01:02",
+"action":
+"download-only"}
+}
+}
+}
+,
+"timezone":
+"US/Pacific",
+"service":
+{
+"disable-telnet":
+"yes",
+"disable-http":
+"yes"}
+,
+"hostname":
+"PeerFound_Fw_01",
+"ip-address":
+"192.168.137.129",
+"netmask":
+"255.255.255.0",
+"default-gateway":
+"192.168.137.2",
+"dns-setting":
+{
+"servers":
+{
+"primary":
+"1.1.1.1",
+"secondary":
+"8.8.8.8"}
+}
+}
 [edit]
 admin@PeerFound_Fw_01#
 
