@@ -2,7 +2,7 @@
 
 ### Configuring Host name
 
-```bash
+```basic
 admin@PA-VM# set deviceconfig system hostname PA_01_CHENNAI
 
 [edit]
