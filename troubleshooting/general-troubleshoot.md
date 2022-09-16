@@ -6,8 +6,9 @@ description: This page contains Cisco network product troubleshooting commands a
 
 ### Network Product Troubleshoot
 
-To Verify the Power Supply unit status
+#### Verify the Power Supply status
 
-```bash
+```
+#Display all the switches in stacks power supply status 
 CISCO_SW_01#show env power all
 ```
