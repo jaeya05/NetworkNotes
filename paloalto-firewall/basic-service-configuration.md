@@ -14,6 +14,12 @@ admin@PeerFound_Fw_01#
 
 use "`exit`" keyword to get back to the cli mode
 
+```basic
+admin@PeerFound_Fw_01# exit
+Exiting configuration mode
+admin@PeerFound_Fw_01>
+```
+
 ### Configuring Host name
 
 ```basic
@@ -49,10 +55,24 @@ Setting management interface to type static
 admin@PeerFound_Fw_01# set deviceconfig system type static
 ```
 
-configuring the static ip address to the interface
+configuring the static IP address to the interface
 
 ```
-// Some code
+admin@PeerFound_Fw_01# set deviceconfig system ip-address 192.168.137.129 netmask 255.255.255.0 default-gateway 192.168.137.254 dns-setting servers primary 1.1.1.1
+```
+
+_<mark style="color:green;">Note : we can execute the commands in single line as mentioned above whereas we can execute the commands one by one as mentioned below</mark>_
+
+```
+admin@PeerFound_Fw_01# set deviceconfig system ip-address 192.168.137.129 netmask 255.255.255.0
+```
+
+```
+admin@PeerFound_Fw_01# set deviceconfig system default-gateway 192.168.137.1
+```
+
+```basic
+admin@PeerFound_Fw_01# set deviceconfig system dns-setting servers primary 1.1.1.1 secondary 8.8.8.8
 ```
 
 
