@@ -4,7 +4,7 @@ description: >-
   Paloalto firewall
 ---
 
-# 🔐 Service Configuration
+# 🔐 Initial Configuration
 
 ### Configuration mode
 

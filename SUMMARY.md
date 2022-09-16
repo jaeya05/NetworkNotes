@@ -8,6 +8,6 @@
   * [Cisco ASA](cisco-asa.md)
 * [IP-Services](4.ip-services.md)
 * [PaloAlto Firewall](paloalto-firewall/README.md)
-  * [🔐 Service Configuration](paloalto-firewall/service-configuration.md)
+  * [🔐 Initial Configuration](paloalto-firewall/initial-configuration.md)
 * [Linux](linux/README.md)
   * [Linux Basics](linux/linux-basics.md)
