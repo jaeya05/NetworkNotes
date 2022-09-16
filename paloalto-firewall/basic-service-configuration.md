@@ -61,7 +61,7 @@ configuring the static IP address to the interface
 admin@PeerFound_Fw_01# set deviceconfig system ip-address 192.168.137.129 netmask 255.255.255.0 default-gateway 192.168.137.254 dns-setting servers primary 1.1.1.1
 ```
 
-_<mark style="color:green;">Note : we can execute the commands in single line as mentioned above whereas we can execute the commands one by one as mentioned below</mark>_
+_<mark style="color:red;">Note :</mark> <mark style="color:green;">we can execute the commands in single line as mentioned above whereas we can execute the commands one by one as mentioned below</mark>_
 
 ```
 admin@PeerFound_Fw_01# set deviceconfig system ip-address 192.168.137.129 netmask 255.255.255.0
@@ -115,5 +115,13 @@ multicast packets received        0
 -------------------------------------------------------------------------------
 
 ```
+
+_<mark style="color:red;">Note:</mark> <mark style="color:green;">we can execute the show commands from configuration mode itself, for the we need include</mark> <mark style="color:orange;">"</mark><mark style="color:orange;"><mark style="color:blue;">run<mark style="color:blue;"></mark><mark style="color:orange;">"</mark> <mark style="color:green;">keyword, beginning of the show commands as mentioned below.</mark>_
+
+```
+admin@PeerFound_Fw_01# run show interface management
+```
+
+
 
 >
