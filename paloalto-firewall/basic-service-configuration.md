@@ -122,6 +122,3 @@ _<mark style="color:red;">Note:</mark> <mark style="color:green;">we can execute
 admin@PeerFound_Fw_01# run show interface management
 ```
 
-
-
->
