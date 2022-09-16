@@ -67,9 +67,7 @@ _<mark style="color:green;">Note : we can execute the commands in single line as
 admin@PeerFound_Fw_01# set deviceconfig system ip-address 192.168.137.129 netmask 255.255.255.0
 ```
 
-```
-admin@PeerFound_Fw_01# set deviceconfig system default-gateway 192.168.137.1
-```
+<pre><code><strong>admin@PeerFound_Fw_01# set deviceconfig system default-gateway 192.168.137.2</strong></code></pre>
 
 ```basic
 admin@PeerFound_Fw_01# set deviceconfig system dns-setting servers primary 1.1.1.1 secondary 8.8.8.8
