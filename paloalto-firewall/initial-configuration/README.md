@@ -83,6 +83,13 @@ admin@PeerFound_Fw_01# set deviceconfig system dns-setting servers primary 1.1.1
 
 #### DHCP IP Configuration
 
+Below mentioned command will set the IP address assignment from static to DHCP\
+_<mark style="color:red;">Note :</mark> <mark style="color:green;">By default management IP address set to DHCP mode only</mark>_
+
+```
+admin@PeerFound_Fw_01# set deviceconfig system type dhcp
+```
+
 #### Verifying the Management Interface
 
 ```basic
