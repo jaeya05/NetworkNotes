@@ -3,7 +3,7 @@
 #### Configuring Host name
 
 ```basic
-admin@PA-VM# set deviceconfig system hostname PA_01_CHENNAI
+admin@PA-VM# set deviceconfig system hostname PeerFound_Fw_01
 
 [edit]
 admin@PA-VM# commit
@@ -13,7 +13,7 @@ Commit job 5 is in progress. Use Ctrl+C to return to command prompt
 Configuration committed successfully
 
 [edit]
-admin@PA_01_CHENNAI#
+admin@PeerFound_Fw_01#
 
 ```
 
@@ -24,7 +24,7 @@ admin@fw# set deviceconfig system ip-address \<ip address> netmask \<netmask> de
 #### Verifying the Management Interface
 
 ```basic
-admin@PA_01_CHENNAI> show interface management
+admin@PeerFound_Fw_01> show interface management
 
 
 -------------------------------------------------------------------------------
