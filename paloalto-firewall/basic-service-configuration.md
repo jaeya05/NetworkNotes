@@ -1,6 +1,20 @@
 # Basic Service Configuration
 
-#### Configuring Host name
+### Configuration mode
+
+To execute new configurations or edit the existing config's we need to first enter into configure mode
+
+```basic
+admin@PeerFound_Fw_01> configure
+Entering configuration mode
+[edit]
+admin@PeerFound_Fw_01#
+
+```
+
+use "`exit`" keyword to get back to the cli mode
+
+### Configuring Host name
 
 ```basic
 admin@PA-VM# set deviceconfig system hostname PeerFound_Fw_01
@@ -17,9 +31,33 @@ admin@PeerFound_Fw_01#
 
 ```
 
-#### Configuring Management IP address
+### Configuring Management IP address
 
-admin@fw# set deviceconfig system ip-address \<ip address> netmask \<netmask> default-gateway \<default gateway> dns-setting servers primary \<DNS ip address>
+#### Syntax
+
+#### Static IP configuration
+
+Syntax
+
+```
+admin@PeerFound_Fw_01# set deviceconfig system ip-address <ip address> netmask <netmask> default-gateway <default gateway> dns-setting servers primary <DNS ip address>
+```
+
+Setting management interface to type static
+
+```basic
+admin@PeerFound_Fw_01# set deviceconfig system type static
+```
+
+configuring the static ip address to the interface
+
+```
+// Some code
+```
+
+
+
+#### DHCP IP Configuration
 
 #### Verifying the Management Interface
 
