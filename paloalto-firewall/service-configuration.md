@@ -1,4 +1,10 @@
-# Basic Service Configuration
+---
+description: >-
+  This page described how to configure and troubleshoot the IP services in
+  Paloalto firewall
+---
+
+# 🔐 Service Configuration
 
 ### Configuration mode
 
