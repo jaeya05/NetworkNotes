@@ -14,7 +14,7 @@ admin@PeerFound_Fw_01> set cli config-output-format
 
 #### Set Format
 
-Displays the output in configured format
+Displays the configuration output in set format
 
 ```
 admin@PeerFound_Fw_01> set cli config-output-format set
@@ -46,9 +46,9 @@ admin@PeerFound_Fw_01#
 
 #### Json Format
 
-Displays the output in json, which helps in dealing with API realted configs
+Displays the config output in json, this format helps while working with API realted configs
 
-```
+```json
 admin@PeerFound_Fw_01# show deviceconfig system
 {
 "type":
@@ -107,4 +107,55 @@ admin@PeerFound_Fw_01# show deviceconfig system
 [edit]
 admin@PeerFound_Fw_01#
 
+```
+
+#### XML Format
+
+
+
+```xml
+admin@PeerFound_Fw_01> set cli config-output-format xml
+admin@PeerFound_Fw_01>
+admin@PeerFound_Fw_01> configure
+Entering configuration mode
+[edit]
+admin@PeerFound_Fw_01# show deviceconfig system
+<response status="success" code="19">
+  <result total-count="1" count="1">
+    <system>
+      <type>
+        <static/>
+      </type>
+      <update-server>updates.paloaltonetworks.com</update-server>
+      <update-schedule>
+        <threats>
+          <recurring>
+            <weekly>
+              <day-of-week>wednesday</day-of-week>
+              <at>01:02</at>
+              <action>download-only</action>
+            </weekly>
+          </recurring>
+        </threats>
+      </update-schedule>
+      <timezone>US/Pacific</timezone>
+      <service>
+        <disable-telnet>yes</disable-telnet>
+        <disable-http>yes</disable-http>
+      </service>
+      <hostname>PeerFound_Fw_01</hostname>
+      <ip-address>192.168.137.129</ip-address>
+      <netmask>255.255.255.0</netmask>
+      <default-gateway>192.168.137.2</default-gateway>
+      <dns-setting>
+        <servers>
+          <primary>1.1.1.1</primary>
+          <secondary>8.8.8.8</secondary>
+        </servers>
+      </dns-setting>
+    </system>
+  </result>
+</response>
+[edit]
+admin@PeerFound_Fw_01#s
 ```
