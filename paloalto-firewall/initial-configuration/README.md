@@ -76,12 +76,6 @@ admin@PeerFound_Fw_01#
 Displays the output in json, which helps in dealing with API realted configs
 
 ```
-admin@PeerFound_Fw_01> set cli config-output-format json
-admin@PeerFound_Fw_01>
-admin@PeerFound_Fw_01>
-admin@PeerFound_Fw_01> configure
-Entering configuration mode
-[edit]
 admin@PeerFound_Fw_01# show deviceconfig system
 {
 "type":
