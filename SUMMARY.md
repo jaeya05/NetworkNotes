@@ -12,3 +12,4 @@
     * [Config Output Format](paloalto-firewall/initial-configuration/config-output-format.md)
 * [Linux](linux/README.md)
   * [Linux Basics](linux/linux-basics.md)
+  * [Linux Firewall](linux/linux-firewall.md)
