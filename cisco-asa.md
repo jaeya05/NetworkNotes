@@ -6,11 +6,11 @@ description: This page contains Cisco ASA Firewall troubleshoot
 
 ### Verify the Access status of Packet flow
 
-The packet-tracer command provides detailed information about the packets and how they are processed by the security appliance. &#x20;
+The packet-tracer command provides detailed information about the packets and how they are processed by the security appliance.
 
 #### syntax
 
-packet-tracer input _<mark style="color:green;">`<ZONE_NAME>`</mark> <mark style="color:red;">\<protocol></mark> <mark style="color:orange;">\<source-ip> \<source-port></mark> <mark style="color:purple;">\<dest-ip> \<dst-port></mark>_ detailed&#x20;
+packet-tracer input _<mark style="color:green;">`<ZONE_NAME>`</mark>  <mark style="color:red;">\<protocol></mark>  <mark style="color:orange;">\<source-ip> \<source-port></mark>  <mark style="color:purple;">\<dest-ip> \<dst-port></mark>_ detailed
 
 * _<mark style="color:orange;">\[src\_int]</mark>_: Specify the source (ingress) interface from which the simulated packet will start.
 * _<mark style="color:red;">protocol</mark>_<mark style="color:red;">:</mark> This can be “**tcp**” or “**udp**” or “**icmp**“.
@@ -35,7 +35,7 @@ ASA# packet-tracer input INSIDE tcp 10.18.19.20 1024 172.27.19.24 23 detailed
 ASA# show vpn-sessiondb summary
 ```
 
-Verify the user who connected to the firewall using <mark style="color:red;">**anyconnect**</mark> VPN&#x20;
+Verify the user who connected to the firewall using <mark style="color:red;">**anyconnect**</mark> VPN
 
 #### syntax
 
