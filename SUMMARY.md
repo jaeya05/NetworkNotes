@@ -15,5 +15,6 @@
     * [PaloAlto Firewall](paloalto-firewall/README.md)
       * [🔐 Initial Configuration](paloalto-firewall/initial-configuration/README.md)
         * [Config Output Format](paloalto-firewall/initial-configuration/config-output-format.md)
+    * [Fortinet-Firewall](network-security/network-firewall/fortinet-firewall/README.md)
+      * [Basic Configurations](network-security/network-firewall/fortinet-firewall/basic-configurations.md)
   * [Cisco ISE \[Identity Service Engine\]](network-security/cisco-ise-identity-service-engine.md)
-  * [Fortinet-Firewall](network-security/fortinet-firewall.md)
