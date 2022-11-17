@@ -46,4 +46,4 @@ FW2 (port5) # end
 
 ```
 
-<figure><img src="../../../.gitbook/assets/1_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1_3.png" alt=""><figcaption><p>Fig 1.3</p></figcaption></figure>
