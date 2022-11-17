@@ -15,9 +15,9 @@ FortiGate-VM64-KVM (global) # end
 FW2 #
 ```
 
-#### <mark style="color:orange;">Interface configuration</mark>
+#### &#x20;<mark style="color:orange;">Interface Troubleshoot & configuration</mark>
 
-_**show system interface**_ will display the listed interface along with it's configuration as shown in the below mentioned **fig 1.1**
+&#x20;To verify the interface configuration input _**show system interface**_ in cli will display the listed interface along with it's configuration as shown in the **fig 1.1**
 
 ```bash
 FortiGate-VM64-KVM # show system interface
