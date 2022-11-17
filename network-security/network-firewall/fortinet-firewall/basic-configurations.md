@@ -12,7 +12,7 @@ description: This page consist Essential configration commands of the fortigate 
 FortiGate-VM64-KVM # config system global
 FortiGate-VM64-KVM (global) # set hostname FW2
 FortiGate-VM64-KVM (global) # end
-FW2 # config
+FW2 #
 ```
 
 #### <mark style="color:orange;">Interface configuration</mark>
@@ -26,9 +26,26 @@ FortiGate-VM64-KVM # show system interface
 <figure><img src="../../../.gitbook/assets/shosysteminterface.png" alt=""><figcaption><p>Fig 1.1</p></figcaption></figure>
 
 ```bash
-FW01#config system interface
+FW2#config system interface
 ```
 
 ```bash
-FW01(config)# edit port5
+FW2 (config)# edit port5
+FW2 (port5) # show
+config system interface
+    edit "port5"
+        set vdom "root"
+        set type physical
+        set snmp-index 5
+    next
+end
+
+```
+
+```bash
+FW2 (port5) # set mode static
+FW2 (port5) # set ip 172.25.100.22/24
+FW2 (port5) # set allowaccess https http ping telnet ssh
+FW2 (port5) # end
+
 ```
