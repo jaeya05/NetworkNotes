@@ -41,6 +41,9 @@ FW2 (port5) # show
 FW2 (port5) # set mode static
 FW2 (port5) # set ip 172.25.100.22/24
 FW2 (port5) # set allowaccess https http ping telnet ssh
+FW2 (port5) # set alias "MGMT"
 FW2 (port5) # end
 
 ```
+
+<figure><img src="../../../.gitbook/assets/1_3.png" alt=""><figcaption></figcaption></figure>
