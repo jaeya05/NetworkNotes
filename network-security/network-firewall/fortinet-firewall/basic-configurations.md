@@ -32,15 +32,10 @@ FW2#config system interface
 ```bash
 FW2 (config)# edit port5
 FW2 (port5) # show
-config system interface
-    edit "port5"
-        set vdom "root"
-        set type physical
-        set snmp-index 5
-    next
-end
 
 ```
+
+<figure><img src="../../../.gitbook/assets/showint5.png" alt=""><figcaption><p>Fig 1.2</p></figcaption></figure>
 
 ```bash
 FW2 (port5) # set mode static
